@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.4em;
+}
+
+body {
+  background-color: #edeff0;
+}
+hr{
+  width: 95%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.wrapper{
+  margin: 0 2.5%;
+}
+
+.navbar {
+    padding: 25px;
+    /*border-bottom: 2px solid darkgrey;*/
+}
+
+.navbar h2 {
+ float: left;
+ margin: 0;
+ line-height: .8em;
+}
+
+.navbar ul {
+  float: right;
+  list-style: none;
+  margin-right: 10px;
+}
+
+.navbar ul li {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 2px solid darkgrey;
+}
+
+.navbar ul li:last-of-type {
+  border-right: none;
+}
+/*------------*/
+
+.box{
+  float:left;
+  background-color: pink;
+  width: 46%;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.box-title{
+  background-color: hotpink;
+  /*overflow: auto;*/
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+}
+.box-title ul {
+  list-style: none;
+  margin-right: 10px;
+}
+
+.box-title li{
+  float: left;
+}
+
+.box-content {
+  clear: both;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+
+a {
+  text-decoration: none;
+  /*margin: 10px;*/
+  border: 2px solid darkgrey;
+  border-radius: 50px;
+  padding: 10px;
+  margin-right:10px;
+}
+
+.box-content p{
+  margin: 20px 0 50px 0;
+}
+
+#java {
+  float: left;
+  color: yellow;
+}
+
+#intermediate {
+  float: left;
+  color: yellow;
+}
+
+#play {
+  float: right;
+  color: purple;
+}
+
+#star {
+  float: right;
+  color: lightblue;
+}
+
+#star img {
+  height: 20px;
+}
